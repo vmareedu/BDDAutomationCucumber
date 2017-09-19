@@ -1,0 +1,15 @@
+com\demoPOC\helpers\ExcelDataProvider.class
+com\demoPOC\pageFactory\MercuryPage.class
+com\demoPOC\bdd\BaseTest.class
+com\demoPOC\step_definitions\TC01_LoginFlow_StepDef.class
+com\demoPOC\TestRunners\RunCukesTestTestNGDataProvider.class
+com\demoPOC\helpers\Utils.class
+com\demoPOC\pageFactory\LoginPage.class
+com\demoPOC\step_definitions\TC02_LoginFlow_StepDef2.class
+com\demoPOC\pageFactory\CreateNewUser.class
+com\demoPOC\pageFactory\CreateNewTicket.class
+com\demoPOC\helpers\DataProviderFactory.class
+com\demoPOC\TestRunners\RunCukesTestDataDriven.class
+com\demoPOC\TestRunners\RunCukesTest.class
+com\demoPOC\bdd\Hooks.class
+com\demoPOC\helpers\Utils$1.class

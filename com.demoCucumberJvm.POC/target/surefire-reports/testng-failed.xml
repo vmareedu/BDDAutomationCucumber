@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" verbose="0" name="Failed suite [CucumberTestNGDemo]" parallel="tests">
+  <test name="Smoke(failed)" parallel="tests">
+    <classes>
+      <class name="com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [CucumberTestNGDemo] -->

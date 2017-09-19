@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CucumberTestNGDemo" duration-ms="42916" started-at="2017-03-27T17:02:49Z" finished-at="2017-03-27T17:03:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCukesTestTestNGDataProvider.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider@78c03f1f]" name="feature" class="com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Smoke" duration-ms="42916" started-at="2017-03-27T17:02:49Z" finished-at="2017-03-27T17:03:32Z">
+      <class name="com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider@78c03f1f]" name="setUpClass" is-config="true" duration-ms="191" started-at="2017-03-27T12:02:49Z" finished-at="2017-03-27T12:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider@78c03f1f]" name="feature" duration-ms="12437" started-at="2017-03-27T12:02:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-03-27T12:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JIRA Story 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider@78c03f1f]" name="feature" duration-ms="9912" started-at="2017-03-27T12:03:02Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-03-27T12:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JIRA Story 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider@78c03f1f]" name="feature" duration-ms="19969" started-at="2017-03-27T12:03:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-03-27T12:03:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JIRA Story 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider@78c03f1f]" name="tearDownClass" is-config="true" duration-ms="330" started-at="2017-03-27T12:03:32Z" finished-at="2017-03-27T12:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demoPOC.TestRunners.RunCukesTestTestNGDataProvider -->
+    </test> <!-- Smoke -->
+  </suite> <!-- CucumberTestNGDemo -->
+</testng-results>
